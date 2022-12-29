@@ -19,7 +19,8 @@ public class ConverterOnFrame extends JFrame implements ActionListener {
         setSize(440, 180);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
 
-        labelConverter = new JLabel("LENGTH MEASURE");
+        labelConverter = new JLabel("LENGTH MEASURE CONVERTER");
+
         fieldAnswer = new JTextField("1");
         labelWriteNum = new JLabel("LANGTH:");
 
@@ -34,7 +35,7 @@ public class ConverterOnFrame extends JFrame implements ActionListener {
 
         labelConverter.setFont(new Font("Castellar", Font.BOLD, 16));
         labelWriteNum.setFont(new Font("Castellar", Font.BOLD, 14));
-        labelConverter.setBounds(150, 15, 200, 20);
+        labelConverter.setBounds(80, 15, 300, 20);
         labelWriteNum.setBounds(15, 50, 80, 25);
         fieldVal.setBounds(85, 50, 70, 25);
         comboBoxFrom.setBounds(165, 50, 60, 25);
