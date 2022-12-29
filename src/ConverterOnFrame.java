@@ -19,7 +19,7 @@ public class ConverterOnFrame extends JFrame implements ActionListener {
         setSize(440, 180);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
 
-        labelConverter = new JLabel("CONVERTER");
+        labelConverter = new JLabel("LENGTH MEASURE");
         fieldAnswer = new JTextField("1");
         labelWriteNum = new JLabel("LANGTH:");
 
