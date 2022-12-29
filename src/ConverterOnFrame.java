@@ -63,13 +63,13 @@ public class ConverterOnFrame extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
 
-        if (e.getSource() == buttonConvert) {
-            fieldAnswer.setText(convertValve());
-        } else if (e.getSource() == buttonClose) {
+        if (e.getSource() == buttonClose) {
             System.exit(0);
+        } else {
+            fieldAnswer.setText(convertValve());
         }
-
     }
+
 
     String convertValve() {
         double value = Double.valueOf(fieldVal.getText());
